@@ -72,8 +72,8 @@ function getLights(result) {
     nameField.mouseReleased(changeName);   // add a mouseReleased behavior
 
     // create the controls inside it:
-    createControl(lights[thisLight], controlDiv);
-    yPos += controlDiv.height;				// increment yPos for the next div
+    // createControl(lights[thisLight], controlDiv);
+    // yPos += controlDiv.height;				// increment yPos for the next div
   }
 }
 
